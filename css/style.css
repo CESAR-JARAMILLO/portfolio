@@ -1589,9 +1589,34 @@ h3 {
   position: relative;
 }
 
+/* custom css start */
+
 .position-img .about-img img {
   border-radius: 12px;
 }
+
+.product-overlay .overlay-text-box {
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 60px;
+  z-index: 1;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.product-overlay:hover .overlay-text-box {
+  opacity: 1;
+  visibility: visible;
+}
+
+.product-overlay:hover .overlay-text-box h4 {
+  color: #f1f1f1;
+}
+
+/* custom css end */
 
 .position-img {
   position: absolute;
