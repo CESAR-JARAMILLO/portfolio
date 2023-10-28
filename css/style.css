@@ -4214,6 +4214,11 @@ h3 {
   width: 100%;
   position: relative;
 }
+
+.Product-item .Product-img {
+  position: relative;
+}
+
 .Product-item .Product-img .product-overlay {
   position: absolute;
   top: 0;
