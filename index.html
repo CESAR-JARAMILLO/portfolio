@@ -54,7 +54,7 @@
                   <div class="menu">
                       <ul>
                           <li>
-                            <a href="index.html" >Home</a>
+                            <a href="#hero" >Home</a>
                           </li>
                           <li>
                             <a href="#about"  >About</a>
@@ -73,7 +73,7 @@
     
               <div class="menu-btn">
                   <div class="btn-style-1">
-                      <a href="#">Let’s Talk <span><svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <a href="#contact">Let’s Talk <span><svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M9 9.5L13 5.5M13 5.5L9 1.5M13 5.5L1 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                           </svg>
                           
@@ -121,7 +121,7 @@
               </div>
               <ul class="nav-links">
                 <li>
-                  <a href="index.html" >Home</a>
+                  <a href="#hero" >Home</a>
                 </li>
                 <li>
                   <a href="#about"  >About</a>
@@ -177,7 +177,7 @@
 
     <!-- banner part start  -->
 
-    <section class="banner">
+    <section id="hero" class="banner">
         <div class="container">
             <div class="row align-items-center  flex-column-reverse flex-lg-row">
                 <div class="col-lg-6">
@@ -320,7 +320,7 @@
                             </div>
 
 
-                            <div class="banner-btn-right">
+                            <!-- <div class="banner-btn-right">
                                 <div class="vidio">
                                     <a class="my-video-links"  data-vbtype="video" href=https://youtu.be/4EvNxWhskf8> <i class="fa-sharp fa-solid fa-play"></i></a>
                                 </div>
@@ -330,7 +330,7 @@
                                     <p> Intro Video</p>
                                 </div>
                             
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -621,48 +621,41 @@
 
 
         <div class="col-lg-7">
-          <div class="send">
-            <div class="send-item">
-              <div class="send-inner">
-               
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Max">
-                  </div>
-             
-             
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Last Name*</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Mustermann">
-                  </div>
-             
-              </div>
-              <div class="send-inner">
-          
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">E-mail*</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="max.mustermann@mail.de">
-                  </div>
-             
-              
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Telephone*</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="+49 123456789">
-                  </div>
-               
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Description*</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Hier text ainfugen" rows="4"></textarea>
-              </div>
-              <div class="send-btn">
-                <div class="btn-style-1">
-                    <a href="#">Send now! 
-                       </a>
+          <form name="contact" netlify>
+            <div class="send">
+                <div class="send-item">
+                    <div class="send-inner">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" name="firstName" id="firstName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" name="lastName" id="lastName">
+                        </div>
+                    </div>
+                    <div class="send-inner">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telephone" class="form-label">Telephone</label>
+                            <input type="text" class="form-control" name="telephone" id="telephone">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea class="form-control" name="description" id="description" rows="4"></textarea>
+                    </div>
+                    <div class="send-btn">
+                        <input type="submit" value="Submit" class="btn-style-1">
+                            <!-- <input type="submit" value="Send now!"> -->
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </form>
+        
         </div>
       </div>
     </div>

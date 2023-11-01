@@ -27,3 +27,14 @@
 .skills-section i:hover {
   color: #13317D; /* Gold color when hovered */
 }
+
+.btn-style-1 {
+  background-color: #2662FA;
+  color: #FFF;
+  /* padding: 10px 20px; */
+  /* border-radius: 5px; */
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
