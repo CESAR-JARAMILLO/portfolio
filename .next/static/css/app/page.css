@@ -1,0 +1,371 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Hero/Hero.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Hero_root__5XkhN {
+  background-color: #11284b;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #062343 70%),
+    url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8&auto=format&fit=crop&w=1080&q=80);
+  padding-top: calc(var(--mantine-spacing-xl) * 3);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 3);
+}
+
+.Hero_inner__Jyc4B {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+}
+
+.Hero_imageContainer___LbnM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.Hero_profileImage___Hn48 {
+  width: 460px;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Hero_content__rnCeh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+}
+
+.Hero_buttonGroup__MZ7Be {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.Hero_title__JisBU {
+  color: var(--mantine-color-white);
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+  font-weight: 900;
+  line-height: 1.05;
+  max-width: 600px;
+  font-size: 48px;
+}
+
+.Hero_description__wKkHN {
+  color: var(--mantine-color-white);
+  opacity: 0.75;
+  max-width: 500px;
+}
+
+/* Button Styling */
+.Hero_control__Y6FpD {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+  font-size: 22px;
+}
+
+.Hero_secondaryControl__kJsX_ {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+  font-size: 22px;
+  border: 2px solid var(--mantine-color-white);
+  color: var(--mantine-color-white);
+  transition: all 0.3s ease;
+}
+
+.Hero_secondaryControl__kJsX_:hover {
+  background-color: var(--mantine-color-white);
+  color: #11284b;
+}
+
+/* ✅ Responsive: Image Moves Above Text on Small Screens */
+@media (max-width: 1024px) {
+  .Hero_inner__Jyc4B {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .Hero_imageContainer___LbnM {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  .Hero_content__rnCeh {
+    align-items: center;
+    text-align: center;
+  }
+
+  .Hero_buttonGroup__MZ7Be {
+    flex-direction: column;
+  }
+
+  .Hero_profileImage___Hn48 {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Portfolio/Portfolio.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Portfolio_portfolioSection__CV4vP {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: auto;
+}
+
+.Portfolio_title__Uhz7b {
+  color: var(--mantine-color-black);
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+  font-weight: 900;
+  line-height: 1.05;
+  max-width: 500px;
+  font-size: 48px;
+  text-align: center;
+  margin: 16px auto;
+}
+
+@media (max-width: 62em) {
+
+.Portfolio_title__Uhz7b {
+    max-width: 100%;
+    font-size: 34px;
+    line-height: 1.15
+}
+  }
+
+.Portfolio_cardsGrid__mFkm9 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/About/About.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/* Outer container - Full width background */
+.About_aboutOuterContainer__wDAB9 {
+  width: 100%;
+  background: linear-gradient(135deg, #1e293b, #334155); /* Dark blue-gray gradient */
+  padding: 4rem 0; /* Top and bottom padding */
+}
+
+/* Inner container - Centers content */
+.About_aboutInnerContainer__5SRb_ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  color: white;
+}
+
+/* Adjust the text color for readability */
+.About_textContent__cjdzv h2,
+.About_textContent__cjdzv p {
+  color: white;
+}
+
+.About_imageWrapper___cUHy {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.About_aboutImage__JKU0H {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.About_textContent__cjdzv {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .About_aboutInnerContainer__5SRb_ {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .About_imageWrapper___cUHy {
+    order: -1; /* Moves image on top */
+  }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Portfolio/PortfolioCard.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.PortfolioCard_card__XWblW {
+  position: relative;
+  height: 440px;
+  width: 360px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.PortfolioCard_card__XWblW:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.PortfolioCard_card__XWblW::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.PortfolioCard_textContainer__tpHvd {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translateX(-150%);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  z-index: 2;
+}
+
+.PortfolioCard_card__XWblW:hover::before {
+  transform: translateX(0);
+}
+
+.PortfolioCard_card__XWblW:hover .PortfolioCard_textContainer__tpHvd {
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .PortfolioCard_isVisible__WTWlP::before {
+    transform: translateX(0);
+  }
+
+  .PortfolioCard_isVisible__WTWlP .PortfolioCard_textContainer__tpHvd {
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./components/Skills/Skills.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+/* Full-width section with a clean background */
+.Skills_skillsOuterContainer__oBA4b {
+  width: 100%;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  padding: 1.5rem 0;
+  overflow: hidden; /* Prevents horizontal scroll issues */
+  display: flex;
+  justify-content: center;
+}
+
+/* Infinite scrolling animation - Moves right */
+@keyframes Skills_scrollRight__KJcGG {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Slider container */
+.Skills_skillsSlider__kTHHG {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+/* Icons track (moves right infinitely) */
+.Skills_skillsTrack__o4XaS {
+  display: flex;
+  gap: 3rem;
+  animation: Skills_scrollRight__KJcGG 25s linear infinite;
+}
+
+/* Individual SVG icons */
+.Skills_skillIcon__8pzGR {
+  height: 80px;
+  width: 80px;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  filter: brightness(0) saturate(100%); /* Makes icons monochrome */
+}
+
+/* Hover effect - Changes SVG color */
+.Skills_skillIcon__8pzGR:hover {
+  filter: brightness(0) saturate(100%) invert(64%) sepia(76%) saturate(750%) hue-rotate(180deg) brightness(95%) contrast(90%);
+  transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .Skills_skillsTrack__o4XaS {
+    gap: 2rem;
+    animation-duration: 12s; /* Speed up on smaller screens */
+  }
+
+  .Skills_skillIcon__8pzGR {
+    width: 60px;
+    height: 60px;
+  }
+}
+
